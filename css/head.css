@@ -1,0 +1,44 @@
+@font-face{  
+      font-family: CerebriSans;
+      src:url(CerebriSans.ttf);
+    }
+    .logo {
+            padding: 10px;
+            width: 50px ;
+        }
+        .nav {
+        padding-left: 10px;
+        margin-bottom: 0;
+        padding-right: 15px;
+        list-style: none;
+        }
+        .navbar {
+          background: -webkit-linear-gradient(top, #109ace, #007bff);
+            background-image: -webkit-linear-gradient(top, rgb(16, 154, 206), rgb(0, 123, 255));
+        }
+        .navbar-inverse .navbar-brand {
+          color: white;
+        }
+        .navbar-inverse .navbar-brand:hover {
+          color: silver;
+        }
+        .navbar-inverse .navbar-nav>li>a {
+          color: #fff;
+          font-size: 17px;
+          font-family: "CerebriSans";
+
+        }
+        .navbar-inverse .navbar-nav>li>a:hover {
+          color: gold;
+        }
+        .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+          color: gold;
+            padding-bottom: 17px;
+        }
+        .btn-color {
+            background-color: #0B5394;
+            color: #fff;
+        }
+        .btn-color:hover {
+            background-color: #d6295d;
+            color: #C0AA1A;
